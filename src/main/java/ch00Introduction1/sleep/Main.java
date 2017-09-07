@@ -1,4 +1,4 @@
-package introduction1.sleep;
+package ch00Introduction1.sleep;
 
 public class Main {
     public static void main(String[] args) {

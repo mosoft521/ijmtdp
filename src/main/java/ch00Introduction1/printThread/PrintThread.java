@@ -1,4 +1,4 @@
-package introduction1.qi1_3;
+package ch00Introduction1.printThread;
 
 public class PrintThread extends Thread {
     private String message;
@@ -8,7 +8,7 @@ public class PrintThread extends Thread {
     }
 
     public void run() {
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 10000; i++) {
             System.out.print(message);
         }
     }

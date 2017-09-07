@@ -1,4 +1,4 @@
-package introduction1.qi1_4;
+package ch00Introduction1.ai1_4;
 
 public class Bank {
     private int money;

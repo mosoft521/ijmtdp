@@ -1,4 +1,4 @@
-package introduction1.printer;
+package ch00Introduction1.printer;
 
 public class Main {
     public static void main(String[] args) {

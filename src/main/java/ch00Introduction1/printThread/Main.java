@@ -1,4 +1,4 @@
-package introduction1.printThread;
+package ch00Introduction1.printThread;
 
 public class Main {
     public static void main(String[] args) {

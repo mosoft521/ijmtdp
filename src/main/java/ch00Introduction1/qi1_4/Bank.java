@@ -1,4 +1,4 @@
-package introduction1.sync;
+package ch00Introduction1.qi1_4;
 
 public class Bank {
     private int money;
@@ -9,22 +9,27 @@ public class Bank {
         this.money = money;
     }
 
-    // 存款
-    public synchronized void deposit(int m) {
+    public void deposit(int m) {
         money += m;
     }
 
-    // 取款
-    public synchronized boolean withdraw(int m) {
+    public boolean withdraw(int m) {
         if (money >= m) {
             money -= m;
-            return true;    // 取款成功
+            check();
+            return true;
         } else {
-            return false;   // 余额不足
+            return false;
         }
     }
 
     public String getName() {
         return name;
+    }
+
+    private void check() {
+        if (money < 0) {
+            System.out.println("可用余额为负数! money = " + money);
+        }
     }
 }

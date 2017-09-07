@@ -1,4 +1,4 @@
-package introduction1.qi1_6;
+package ch00Introduction1.qi1_6;
 
 public class Something {
     public static void cA() {

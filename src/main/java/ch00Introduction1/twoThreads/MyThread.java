@@ -1,4 +1,4 @@
-package introduction1.twoThreads;
+package ch00Introduction1.twoThreads;
 
 public class MyThread extends Thread {
     public void run() {

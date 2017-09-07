@@ -1,4 +1,4 @@
-package introduction1.ai1_4;
+package ch00Introduction1.ai1_4;
 
 public class ClientThread extends Thread {
     private Bank bank;

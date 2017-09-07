@@ -1,4 +1,4 @@
-package introduction1.jucThreadFactory;
+package ch00Introduction1.jucThreadFactory;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;

@@ -1,9 +1,9 @@
-package introduction1.printThread;
+package ch00Introduction1.printer;
 
-public class PrintThread extends Thread {
+public class Printer implements Runnable {
     private String message;
 
-    public PrintThread(String message) {
+    public Printer(String message) {
         this.message = message;
     }
 
