@@ -1,7 +1,7 @@
 package ch12ActiveObject.q12_2b;
 
-import activeobject.ActiveObject;
-import activeobject.ActiveObjectFactory;
+import ch12ActiveObject.a12_2b.activeobject.ActiveObject;
+import ch12ActiveObject.a12_2b.activeobject.ActiveObjectFactory;
 
 public class Main {
     public static void main(String[] args) {
